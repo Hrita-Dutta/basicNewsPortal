@@ -1,0 +1,276 @@
+*{margin: 0 ; padding: 0 ; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato&family=Montserrat:wght@400;600&display=swap');
+:root
+{
+    --bcolor: #0a0a0a;
+    --topcolor: #0a0000;
+    --navcolor: #111;
+    --ripplecolor: darkred;
+    --live:#cf2e2e;
+    --highlight:  "Playfair Display", serif;
+
+}
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background: var(--bcolor);
+    color:white;
+}
+.flex
+{
+    display:flex;
+    justify-content: space-between;
+}
+.con
+{
+    max-width:1400px;
+    margin:auto;
+}
+.top
+{
+    background: var(--topcolor);
+    padding:20px
+    
+}
+.livebutton
+{
+    display: flex;
+}
+.live{
+    width:60px;
+    height:35px;
+    background: var(--live);
+    padding:10px;
+}
+.livebutton .live a
+{
+    color:white; 
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+}
+.menu-dropdown
+{
+    position:relative;
+    display:inline-block;
+}
+.menu-dropdown span
+{
+    background: var(--live);
+    padding:10px;
+    color:white;
+    display:none;
+}
+.dropdown-content
+{
+    display:none;
+    position:absolute;
+    background: wheat;
+    max-width:400px;
+    box-shadow: 5px 5px 10px 5px black;
+}
+.search
+{
+    margin:auto;
+}
+.content .con .tag .tag-menu .flex
+{
+    justify-content: start;
+}
+.wrap
+{
+    flex-wrap:wrap;
+}
+.ripple
+{
+    width:40px;
+    height:35px;
+    background: var(--ripplecolor);
+}
+
+.nav
+{
+    background: var(--navcolor);
+    padding:30px;
+}
+.nav .nav-content .logo h1
+{
+    font-size: 42px;
+    font-weight: 400;
+    
+}
+.nav .nav-content .menu ul 
+{
+    gap: 26px 36px;
+}
+.menu
+{
+    margin:auto;
+}
+.tag
+{
+    margin: 10px 0;
+    background: var(--navcolor);
+    display: flex;
+    font-weight:700 ;
+    
+}
+.poplrtag
+{
+    background-color: #cf2e2e;
+    width:171px;
+    height:44px;
+    padding:10px;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+.tag-menu
+{
+    padding:15px;
+}
+.tag-menu ul 
+{
+    gap:24px;
+}
+.tag-menu ul a 
+{
+    font-weight: 400;
+    font-size:1rem;
+}
+.breakingnews1
+{
+    width:197px;
+    height:50px;
+    background: var(--live);
+    padding:15px 2px 8px 6px;
+    font-family: var(--highlight);
+    font-size:14px;
+}
+.ripple1
+{
+    width:55px;
+    height:50px;
+    background: var(--ripplecolor);
+    
+}
+.breakingnews
+{
+    display: flex;
+}
+.section
+{
+    margin:10px 0;
+}
+.section-one
+{
+    max-width:100%;
+    height:57px;
+}
+.section  .section-one h2
+{
+    width: 160px;
+    height:45px;
+    padding: 12px 0 5px 8px;
+    background: var(--live);
+    font-weight: 700;
+}
+.section-left
+{
+    width:48%;
+}
+.lrespon
+{
+    width:100%;
+}
+.w-100
+{
+    width:100%;
+}
+.img
+{
+    position: relative;
+    display: inline-block;
+}
+.cont
+{
+    position:absolute;
+    left:5px;
+    bottom:10px;
+    
+}
+.life-living
+{
+    display:flex;
+    gap:10px;
+    padding:10px;
+}
+.lifestyle
+{
+    background: red;
+    padding:4px 10px;;
+}
+.highlight
+{
+    font-size:34px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    padding:10px;
+}
+.living
+{
+    background: darkblue;
+    padding:5px 10px;;
+}
+.date
+{
+    padding:10px;
+}
+main
+{
+    padding:25px;
+}
+.section-right
+{
+    width:50%;
+}
+.section-right .img
+{
+    width:48%;
+}
+.section-right .cont
+{
+    position:absolute;
+    left:1px;
+    bottom:1px;
+    
+}
+.section-right .highlight
+{
+    font-size:16px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    padding:10px;
+}
+.section-right .date
+{
+    padding:10px;
+}
+.align
+{
+    align-items:stretch;
+}
+.gap
+{
+    gap:30px 10px;
+}
